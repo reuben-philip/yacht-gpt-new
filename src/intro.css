@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    font-family: "Bebas", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers everything */
+    justify-content: center;
+    height: 100vh; /* Makes sure content stays centered vertically */
+    text-align: center; /* Ensures all text elements are centered */
+  }
+  
+  /* Main Container */
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Title (YACHTGPT) */
+  .title {
+    font-size: 8vw; /* Adjust for better fit */
+    margin: 0;
+  }
+  
+  /* Tagline */
+  .subtitle {
+    font-size: 1.5vw;
+    margin-top: 5px;
+  }
+  
+  /* Enter Button */
+  .enter-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: #ffffff;
+    cursor: pointer;
+    border: 1px solid #000000;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 8px #c5c5c5, -3px -3px 8px #c5c5c5;
+  }
+  
+  .enter-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .enter-button:active {
+    box-shadow: none;
+    transform: translateY(2px);
+  }
+  
+  /* Footer (Made by Reuben Philip) */
+  .footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: "Bebas";
+  }
+  

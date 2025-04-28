@@ -1,0 +1,96 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* SignUp Container */
+  .signup-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Left Section (Video Section) */
+  .video-section {
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .video-section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 100%;
+  }
+  
+  /* Right Section (SignUp Form) */
+  .signup-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .signup-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .signup-section form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .signup-section form div {
+    margin-bottom: 15px;
+  }
+  
+  .signup-section label {
+    font-size: 1em;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+  }
+  
+  .signup-section input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .signup-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-section button:hover {
+    background-color: #218838;
+  }
+  
+  .signup-section p {
+    margin-top: 15px;
+    color: red;
+    font-size: 0.9em;
+  }
+  

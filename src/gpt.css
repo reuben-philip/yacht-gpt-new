@@ -1,0 +1,96 @@
+
+body {
+    background: black;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+/* Chatbox Container */
+.chatbox {
+    width: 55%;
+    height: 70vh;
+    background-color: black;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Chat Input Box */
+.textbox {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.textbox textarea {
+    background-color: lightgray;
+    border: none;
+    padding: 1%;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 3em;
+    cursor: pointer;
+    resize: none;
+}
+
+/* Send Button */
+.click {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.click button {
+    margin-bottom: 1.5rem;
+    padding: 10px 15px;
+    background: #0084ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.click button:hover {
+    background: #006edc;
+}
+
+/* Message Styles */
+.message {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    display: inline-block;
+}
+
+.user {
+    background-color: #0084ff;
+    color: white;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.chatgpt {
+    background-color: #444444;
+    color: white;
+    align-self: flex-start;
+    text-align: left;
+}
+
+/* Chat Container */
+#container {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
