@@ -9,7 +9,7 @@ const mongoose = require("mongoose");
 const { OpenAI } = require("openai");
 
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "api-key",
 });
 
 const app = express();
